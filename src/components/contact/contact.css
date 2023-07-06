@@ -55,6 +55,12 @@ button {
   font-family: "Russo One", sans-serif;
   cursor: pointer;
 }
+.send-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
 
 .success-message {
   text-align: center;

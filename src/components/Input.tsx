@@ -14,6 +14,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
     return (
       <>
         <input
+          id={id}
           type={type}
           className={`${className ?? ""}`}
           ref={ref}

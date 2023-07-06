@@ -10,11 +10,12 @@ import emailjs from "@emailjs/browser";
 import { toast } from "react-hot-toast";
 import { Input } from "../Input";
 import { Textarea } from "../TextArea";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { Loader } from "lucide-react";
 import "./contact.css";
 export default function Contact() {
   const [isLoading, setIsLoading] = useState(false);
+  const form = useRef<HTMLFormElement>(null);
   const {
     formState: { errors },
     reset,
@@ -30,24 +31,28 @@ export default function Contact() {
     resolver: zodResolver(emailValidator) /* eslint-disable-line */,
   });
 
-  const handleSubmitForm: SubmitHandler<emailValidatorType> = async (data) => {
+  const handleSubmitForm: SubmitHandler<emailValidatorType> = async () => {
     try {
+      setIsLoading(true);
       // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call
       await emailjs.sendForm(
-        import.meta.env.REACT_APP_SERVICEID,
-        import.meta.env.REACT_APP_TEMPLATEID,
-        data as any,
-        import.meta.env.REACT_APP_PUBLICKEY
+        import.meta.env.VITE_SERVICEID,
+        import.meta.env.VITE_TEMPLATEID,
+        form.current!,
+        import.meta.env.VITE_PUBLICKEY
       );
-      toast.success("Message sent successfully!");
       reset();
+      toast.success("Message sent successfully!");
     } catch (error) {
+      console.log("error", error);
       toast.error("Something went wrong, please try again later.");
+    } finally {
+      setIsLoading(false);
     }
   };
   return (
     <div className="contact-menu">
-      <form onSubmit={handleSubmit(handleSubmitForm)}>
+      <form onSubmit={handleSubmit(handleSubmitForm)} ref={form}>
         <div className="form-group">
           <label htmlFor="name">Name:</label>
           <Input
@@ -79,8 +84,10 @@ export default function Contact() {
           />
         </div>
         <button type="submit" disabled={isLoading}>
-          {isLoading ? <Loader className="animate-spin" /> : null}
-          {isLoading ? "SENDING..." : "SUBMIT"}
+          <div className="send-container">
+            {isLoading ? <Loader className="animate-spin" /> : null}
+            {isLoading ? "SENDING..." : "SUBMIT"}
+          </div>
         </button>
       </form>
     </div>

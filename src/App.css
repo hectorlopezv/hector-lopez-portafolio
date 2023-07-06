@@ -16,3 +16,7 @@
     }
   }
 }
+input:focus,
+input:active {
+  background-color: transparent !important;
+}
