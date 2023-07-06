@@ -1,3 +1,5 @@
+import ProjectsMenu from "./projectsMenu/ProjectsMenu";
+
 export default function Projects() {
-  return <div>Projects</div>;
+  return <ProjectsMenu />;
 }
