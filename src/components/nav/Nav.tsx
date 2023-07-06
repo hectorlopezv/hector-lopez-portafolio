@@ -1,5 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
+import astrountalHelmet from "../../assets/astronaut-helmet.png";
 import deadeyer from "../../assets/dead-eye.png";
+import envelope from "../../assets/envelope.png";
+import stack from "../../assets/stack.png";
 import "./navbar.css";
 export default function Nav() {
   const location = useLocation();
@@ -47,9 +50,27 @@ export default function Nav() {
     <nav className={`nav ${navPositionClass}`}>
       {renderNavLink({
         to: "/",
-        imageSrc: deadeyer,
+        imageSrc: astrountalHelmet,
         altText: "astronaut helmet icon",
         navClass: "nav-about",
+      })}
+      {renderNavLink({
+        to: "/skills",
+        imageSrc: deadeyer,
+        altText: "deadeyer icon",
+        navClass: "nav-skills",
+      })}
+      {renderNavLink({
+        to: "/projects",
+        imageSrc: stack,
+        altText: "stack icon",
+        navClass: "nav-projects",
+      })}
+      {renderNavLink({
+        to: "/contact",
+        imageSrc: envelope,
+        altText: "envelop icon",
+        navClass: "nav-contact",
       })}
     </nav>
   );
