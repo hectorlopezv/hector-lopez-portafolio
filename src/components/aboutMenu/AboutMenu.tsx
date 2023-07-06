@@ -53,9 +53,9 @@ export default function AboutMenu() {
             key={index}
             content={item.content}
             title={item.title}
-            active={activeMenuItem === index + 1}
+            active={activeSubHeading === index + 1}
             onClick={() => handleSubHeadingClick(index + 1)}
-            menuItem={activeMenuItem}
+            menuItem={activeSubHeading}
           />
         ))}
       </div>

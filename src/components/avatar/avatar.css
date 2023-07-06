@@ -5,7 +5,7 @@
 }
 
 .avatar.about {
-  scale: 1.2;
+  scale: 1.1;
   height: 100vh;
   bottom: -8vh;
   left: 50%;
@@ -16,7 +16,7 @@
   height: 100vh;
   top: 13rem;
   left: 8rem;
-  scale: 2;
+  scale: 1.5;
   transform: translateX(0%) scaleX(-1);
 }
 
