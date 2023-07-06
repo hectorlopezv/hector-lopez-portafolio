@@ -55,6 +55,8 @@
 .project-sub-container h3 {
   position: relative;
   margin: 0;
+  padding-bottom: 10px;
+  font-size: 1.2rem;
 }
 .project-sub-container img {
   width: 100%;
@@ -101,6 +103,7 @@
   .project-menu {
     width: 28rem;
     flex-direction: column;
+    gap: 0.3rem;
     align-items: center;
   }
   .project-menu p {
@@ -108,10 +111,14 @@
   }
   .project-sub-container {
     margin-top: 1rem;
-    width: 12rem;
+    width: 20rem;
+
+  }
+  .project-sub-container h3 {
+    font-size: 1rem;
   }
   .project-sub-container img {
-    width: 12rem;
+    width: 20rem;
   }
   .link-container a {
     margin-top: 0.5rem;

@@ -4,10 +4,12 @@ import Background from "./components/background/Background";
 import Nav from "./components/nav/Nav";
 import PlayerStasts from "./components/playerStats/PlayerStasts";
 import AppWrapper from "./AppWrapper";
+import { Toaster } from "react-hot-toast";
 function App() {
   return (
     <div className="App">
       <Router>
+        <Toaster />
         <Nav />
         <Background />
         <AppWrapper />
