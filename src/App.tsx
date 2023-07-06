@@ -5,11 +5,13 @@ import Contact from "./components/contact/Contact";
 import Nav from "./components/nav/Nav";
 import Projects from "./components/projects/Projects";
 import Skills from "./components/skills/Skills";
+import Background from "./components/background/Background";
 function App() {
   return (
     <div className="App">
       <Router>
         <Nav />
+        <Background />
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/skills" element={<Skills />} />

@@ -9,14 +9,14 @@ export default function Nav() {
   const getNavPositionClass: Record<string, string> = {
     "/": "nav-about",
     "/skills": "nav-skills",
-    "/project": "nav-project",
+    "/projects": "nav-projects",
     "/contact": "nav-contact",
   };
 
   const getPageTitle: Record<string, string> = {
     "/": "About",
     "/skills": "Skills",
-    "/project": "Project",
+    "/projects": "Projects",
     "/contact": "Contact",
   };
 
