@@ -1,3 +1,11 @@
+import AboutMenu from "../aboutMenu/AboutMenu";
+import Avatar from "../avatar/Avatar";
+
 export default function About() {
-  return <div>About</div>;
+  return (
+    <>
+      <Avatar page="about" />
+      <AboutMenu />
+    </>
+  );
 }

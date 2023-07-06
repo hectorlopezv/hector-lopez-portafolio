@@ -6,6 +6,7 @@ import Nav from "./components/nav/Nav";
 import Projects from "./components/projects/Projects";
 import Skills from "./components/skills/Skills";
 import Background from "./components/background/Background";
+import PlayerStasts from "./components/playerStats/PlayerStasts";
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <PlayerStasts />
       </Router>
     </div>
   );
