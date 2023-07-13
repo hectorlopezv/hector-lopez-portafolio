@@ -104,6 +104,8 @@
     width: 28rem;
     gap: 0.3rem;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .project-menu p {
@@ -111,18 +113,19 @@
   }
   .project-sub-container {
     margin-top: 1rem;
-    width: 20rem;
+    width: 75%;
   }
   .project-sub-container h3 {
     font-size: 1rem;
   }
   .project-sub-container img {
-    width: 15rem;
+    min-width: 340px;
+    width: 100%;
     border-radius: 4px;
     height: 230px;
   }
   .project-sub-container-description {
-    width: 15rem;
+    width: 100%;
   }
   .link-container a {
     margin-top: 0.5rem;
@@ -131,6 +134,12 @@
   }
   .project-items-container {
     margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 63%;
+    overflow-x: auto;
+    padding: 14px;
   }
   .project-items-container .title {
     font-size: 0.75rem;
