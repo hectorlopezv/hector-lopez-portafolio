@@ -5,9 +5,7 @@ import AirbnbImage from "../../../assets/projects/images/airbnb.png";
 import ServerActions from "../../../assets/projects/images/serveractions.png";
 import Admin from "../../../assets/projects/images/admin.png";
 import Store from "../../../assets/projects/images/store.png";
-import projectOne from "../../../assets/project-1.png";
-import projectTwo from "../../../assets/project-2.png";
-import projectThree from "../../../assets/project-3.png";
+
 export interface IProject {
   title: string;
   image: string;
@@ -110,6 +108,17 @@ const projects: IProjects = {
     github:
       "https://github.com/hectorlopezv/fullstack-eccomerce-next13-tailwind-prisma-mysql-store",
     demo: "https://fullstack-eccomerce-next13-tailwind-prisma-mysql-store.vercel.app/",
+  },
+  7: {
+    title: "React Fiber, Three.js",
+    image: Store,
+    description: (
+      <>
+        <p>React Fiber, Three.js, React, Typescript, and more.</p>
+      </>
+    ),
+    github: "https://github.com/hectorlopezv/react-three-fiber-demos",
+    demo: "https://react-three-fiber-demos.vercel.app/",
   },
 };
 
