@@ -28,7 +28,7 @@ export default function SkillsMenu() {
     ));
   };
 
-  const menuItems = ["FRONT-END", "BACK-END"];
+  const menuItems = ["FRONTEND", "BACKEND", "CLOUD"];
 
   const currentIcon = activeMenuItem === 1 ? frontendIcon : backendIcon;
 

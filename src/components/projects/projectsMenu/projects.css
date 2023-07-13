@@ -96,10 +96,10 @@
     font-size: 1rem;
   }
   .title {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   .project-menu {
     width: 28rem;
     flex-direction: column;
@@ -112,7 +112,6 @@
   .project-sub-container {
     margin-top: 1rem;
     width: 20rem;
-
   }
   .project-sub-container h3 {
     font-size: 1rem;

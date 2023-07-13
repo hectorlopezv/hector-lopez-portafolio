@@ -20,7 +20,7 @@
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   .shadow-overlay {
     background-color: rgba(0, 0, 0, 0.7);
   }

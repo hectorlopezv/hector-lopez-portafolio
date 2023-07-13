@@ -6,6 +6,7 @@ import AboutMenuItem from "./AboutMenuItem";
 import subheadingsData from "./AboutMenuSubHeadingData";
 import "./aboutMenu.css";
 import AboutMenuSubHeading from "./AboutMenuSubHeading";
+const menuItem = ["PERSONAL", "EDUCATION", "CARRER"];
 export default function AboutMenu() {
   const [activeMenuItem, setActiveMenuItem] = useState(1);
   const [activeSubHeading, setActiveSubHeading] = useState(1);
@@ -17,7 +18,7 @@ export default function AboutMenu() {
   const handleSubHeadingClick = (subHeading: number) => {
     setActiveSubHeading(subHeading);
   };
-  const menuItem = ["PERSONAL", "EDUCATION", "CARRER"];
+
   const activeMenuTitle = menuItem[activeMenuItem - 1];
   const activeMenuIcon = useMemo(() => {
     let icon = personalIcon;
@@ -50,6 +51,7 @@ export default function AboutMenu() {
         </div>
         {subheadings.map((item, index) => (
           <AboutMenuSubHeading
+            activeMenuTitle={activeMenuTitle}
             key={index}
             content={item.content}
             title={item.title}

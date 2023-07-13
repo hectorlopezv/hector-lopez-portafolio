@@ -12,6 +12,7 @@
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@hookform/resolvers": "^3.1.1",
+    "@portabletext/to-html": "^2.0.0",
     "classnames": "^2.3.2",
     "lucide-react": "^0.258.0",
     "react": "^18.2.0",
@@ -19,6 +20,8 @@
     "react-hook-form": "^7.45.1",
     "react-hot-toast": "^2.4.1",
     "react-router-dom": "^6.14.1",
+    "sanity": "^3.14.2",
+    "sanity-typed-queries": "^0.9.4",
     "zod": "^3.21.4"
   },
   "devDependencies": {
@@ -32,5 +35,7 @@
     "eslint-plugin-react-refresh": "^0.4.1",
     "typescript": "^5.0.2",
     "vite": "^4.4.0"
+  },"engines": {
+    "node": ">=18.0.0"
   }
 }

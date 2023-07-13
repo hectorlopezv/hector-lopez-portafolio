@@ -11,13 +11,13 @@
   transform: translateX(-1.56rem);
 }
 .nav-skills {
-  transform: translateX(-6.25rem);
+  transform: translateX(-3.25rem);
 }
 .nav-projects {
-  transform: translateX(-10.94rem);
+  transform: translateX(-6.94rem);
 }
 .nav-contact {
-  transform: translateX(-15.62rem);
+  transform: translateX(-9.62rem);
 }
 
 a {
@@ -55,7 +55,7 @@ a {
     transform: translateX(0);
   }
   .nav {
-    top: calc(100vh - 8rem);
+    top: calc(100vh - 4rem);
     transform: translateX(-50%);
   }
   .nav-link {

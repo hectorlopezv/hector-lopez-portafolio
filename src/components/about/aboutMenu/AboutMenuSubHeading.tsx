@@ -7,7 +7,9 @@ export default function AboutMenuSubHeading({
   onClick,
   content,
   menuItem,
+  activeMenuTitle,
 }: {
+  activeMenuTitle: string;
   title: string;
   active: boolean;
   onClick: () => void;
@@ -15,6 +17,7 @@ export default function AboutMenuSubHeading({
   menuItem: string | number;
 }) {
   const subContainerClass = `sub-container-${menuItem}`;
+  console.log({ activeMenuTitle });
   return (
     <div
       className={classNames(subContainerClass, { "active-subheading": active })}
@@ -22,7 +25,14 @@ export default function AboutMenuSubHeading({
       <h3 className="title" onClick={onClick}>
         {title}
       </h3>
-      <div className="p-container">{content}</div>
+      <div
+        className={`p-container scrollbar ${
+          activeMenuTitle === "CARRER" ? "max-height" : ""
+        }`}
+        id="style-1"
+      >
+        {content}
+      </div>
     </div>
   );
 }

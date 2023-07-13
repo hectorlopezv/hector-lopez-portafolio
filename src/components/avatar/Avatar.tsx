@@ -5,9 +5,7 @@ type Props = {
 };
 export default function Avatar({ page }: Props) {
   const avatarClass = `avatar ${page}`;
-  const spanClass = `shadow-overlay-${page}`;
-  console.log("avatarClass", avatarClass);
-  return (
+  const spanClass = `shadow-overlay-${page}`;  return (
     <>
       <span className={spanClass}></span>
       <img src={avatarImage} alt="avatar image" className={avatarClass} />

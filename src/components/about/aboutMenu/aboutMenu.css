@@ -26,7 +26,7 @@
 }
 
 .sub-container {
-  width: 18.5rem;
+  width: 21rem;
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -51,10 +51,15 @@
   background: linear-gradient(90deg, var(--transparent), var(--cyan) 70%);
   border-radius: var(--radius-right);
 }
+.item.active:nth-child(4) {
+  background: linear-gradient(90deg, var(--transparent), var(--purple) 70%);
+  border-radius: var(--radius-right);
+}
 
 .sub-container-1.active-subheading h3,
 .sub-container-2.active-subheading h3,
-.sub-container-3.active-subheading h3 {
+.sub-container-3.active-subheading h3,
+.sub-container-4.active-subheading h3 {
   border-radius: var(--radius-left);
 }
 
@@ -66,6 +71,10 @@
 }
 .sub-container-3.active-subheading h3 {
   background: linear-gradient(90deg, var(--cyan), var(--transparent) 100%);
+}
+
+.sub-container-4.active-subheading h3 {
+  background: linear-gradient(90deg, var(--purple), var(--transparent) 100%);
 }
 
 .item.active {
@@ -80,8 +89,14 @@
 .active-subheading .p-container {
   display: block;
   font-size: 1rem;
+  max-height: 320px;
+  height: 100%;
+  overflow-y: auto;
 }
 
+.active-subheading .p-container.max-height {
+  max-height: 180px;
+}
 .icon-title-container {
   display: flex;
   gap: 1.2rem;
@@ -96,13 +111,14 @@
 
 .sub-container-1 h3,
 .sub-container-2 h3,
-.sub-container-3 h3 {
+.sub-container-3 h3,
+.sub-container-4 h3 {
   position: relative;
   margin: 0.2rem 0;
   padding: 0.5rem 0 0.5rem 1rem;
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 850px) {
   .sub-container {
     right: 1rem;
   }
@@ -113,36 +129,25 @@
     height: 2rem;
   }
 }
-@media (max-width: 700px) {
+@media screen and (max-width: 850px) {
   .sub-container {
-    width: 15rem;
-    top: 50%;
+    width: 23rem;
+    top: 43%;
     left: 50%;
     transform: translateX(-50%);
   }
-  .title {
-    font-size: 0.8rem;
-    padding-right: 2.5rem;
-  }
+
   .active-subheading .p-container {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .icon-title-container,
   .icon {
     display: none;
   }
-  h1 {
-    font-size: 0.8rem;
-  }
-  h2,
-  h3,
-  p {
-    font-size: 0.8rem;
-  }
 }
 
 .skill-menu {
-  width: 31.2rem;
+  width: 44rem;
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -186,12 +191,13 @@
   width: 5rem;
   height: 5rem;
   position: absolute;
-  top: 1.8rem;
-  left: 8rem;
+  top: 0.8rem;
+  left: 10rem;
 }
 
 .skill-sub-container-1 h3,
-.skill-sub-container-2 h3 {
+.skill-sub-container-2 h3,
+.skill-sub-container-3 h3 {
   position: relative;
   margin: 0;
 }
@@ -207,7 +213,8 @@
 }
 
 .skill-sub-container-1,
-.skill-sub-container-2 {
+.skill-sub-container-2,
+.skill-sub-container-3 {
   display: flex;
   justify-content: right;
   gap: 2rem;
@@ -238,7 +245,16 @@
   gap: 0.4rem;
 }
 
-@media (max-width: 1100px) {
+@media screen and (max-width: 850px) {
+  .menu {
+    width: 10rem;
+    top: 30%;
+    left: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+@media screen and (max-width: 1100px) {
   .skill-item.activeSkill .skill-title {
     font-size: 1rem;
   }
@@ -254,21 +270,15 @@
     gap: 0.15rem;
   }
   .skill-sub-container-1,
-  .skill-sub-container-2 {
+  .skill-sub-container-2,
+  .skill-sub-container-3 {
     gap: 0.5rem;
   }
   .skill-sub-container {
     margin-top: 2rem;
     gap: 0.2rem;
   }
-  h1 {
-    font-size: 0.8rem;
-  }
-  h2,
-  h3,
-  p {
-    font-size: 0.7rem;
-  }
+
   .skill-menu {
     flex-direction: column;
     left: 50%;
@@ -279,13 +289,5 @@
   .skill-item {
     height: 2rem;
     width: 12em;
-  }
-}
-@media (max-width: 700px) {
-  .menu {
-    width: 10rem;
-    top: 30%;
-    left: 50%;
-    transform: translateY(-50%);
   }
 }

@@ -11,66 +11,108 @@ export interface ISkillsData {
 const skills: ISkillsData = {
   1: [
     {
-      title: "HTML",
+      title: "Css / Sass / Html",
+      level: 5,
+    },
+
+    {
+      title: "JavaScript / TypeScript",
+      level: 5,
+    },
+
+    {
+      title: "Redux / Zustand",
+      level: 5,
+    },
+    {
+      title: "Tailwind CSS / Bootstrap",
+      level: 5,
+    },
+    {
+      title: "React / Next",
       level: 6,
     },
     {
-      title: "CSS",
-      level: 5,
-    },
-    {
-      title: "SASS",
-      level: 2,
-    },
-    {
-      title: "JavaScript",
-      level: 5,
-    },
-    {
-      title: "TypeScript",
+      title: "Material UI / Shadcn / Ant Design",
       level: 4,
     },
     {
-      title: "Tailwind CSS",
-      level: 1,
-    },
-    {
-      title: "React JS",
+      title: "Auth0 / Passport / JWT / OAuth",
       level: 3,
     },
+
     {
-      title: "Figma",
+      title: "Jest / React Testing Library / Cypress",
       level: 4,
     },
   ],
   2: [
+    { title: "Authentication / Authorization", level: 3 },
     {
-      title: "PostgreSQL",
-      level: 5,
-    },
-    {
-      title: "Node.js",
-      level: 4,
-    },
-    {
-      title: "MongoDB",
+      title: "Python / Go / Java",
       level: 2,
     },
     {
-      title: "Git",
+      title: "Prisma / TypeORM",
       level: 4,
     },
     {
-      title: "PHP",
+      title: "Docker / Kubernetes",
+      level: 2,
+    },
+    {
+      title: "Git / Github / Gitlab",
+      level: 4,
+    },
+    {
+      title: "GraphQL / REST",
+      level: 4,
+    },
+    {
+      title: "Mongodb / Mysql / Postgresql",
+      level: 3,
+    },
+    {
+      title: "Node / Express / Nest",
+      level: 4,
+    },
+  ],
+  3: [
+    {
+      title: "AWS / GCP / Azure",
+      level: 2,
+    },
+    {
+      title: "Linux / Bash",
+      level: 2,
+    },
+    {
+      title: "Microservices / Monolith",
+      level: 2,
+    },
+    {
+      title: "Asensible / Terraform",
       level: 1,
     },
     {
-      title: "SQL",
-      level: 3,
+      title: "CI / CD",
+      level: 1,
     },
     {
-      title: "Express.js",
-      level: 3,
+      title: "Kafka / RabbitMQ",
+      level: 1,
+    },
+    {
+      title: "Redis / Memcached",
+      level: 1,
+    },
+    {
+      title: "Elasticsearch / Kibana",
+      level: 1,
+    },
+    {
+      title: "Prometheus / Grafana",
+      level: 1,
     },
   ],
 };
