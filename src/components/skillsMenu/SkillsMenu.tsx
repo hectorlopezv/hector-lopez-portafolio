@@ -1,7 +1,7 @@
 import classNames from "classnames";
 import { useState } from "react";
-import frontendIcon from "../../assets/eagle-emblem.png";
-import backendIcon from "../../assets/hawk-emblem.png";
+import frontendIcon from "../../assets/eagle-emblem.webp";
+import backendIcon from "../../assets/hawk-emblem.webp";
 import skills, { SkillData } from "./skillsData";
 export default function SkillsMenu() {
   const [activeMenuItem, setActiveMenuItem] = useState(1);

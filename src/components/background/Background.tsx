@@ -1,5 +1,5 @@
 import video from "../../assets/bg-universe.mp4";
-import fallbackImage from "../../assets/fallback-image.png";
+import fallbackImage from "../../assets/fallback-image.webp";
 
 import "./background.css";
 export default function Background() {

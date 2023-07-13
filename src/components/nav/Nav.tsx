@@ -1,8 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
-import astrountalHelmet from "../../assets/astronaut-helmet.png";
-import deadeyer from "../../assets/dead-eye.png";
-import envelope from "../../assets/envelope.png";
-import stack from "../../assets/stack.png";
+import astrountalHelmet from "../../assets/astronaut-helmet.webp";
+import deadeyer from "../../assets/dead-eye.webp";
+import envelope from "../../assets/envelope.webp";
+import stack from "../../assets/stack.webp";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import "./navbar.css";
 export default function Nav() {

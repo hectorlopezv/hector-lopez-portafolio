@@ -1,11 +1,11 @@
 import { ReactNode } from "react";
-import MessengerImage from "../../../assets/projects/images/messenger.png";
-import RedditImage from "../../../assets/projects/images/reddit.png";
-import AirbnbImage from "../../../assets/projects/images/airbnb.png";
-import ServerActions from "../../../assets/projects/images/serveractions.png";
-import Admin from "../../../assets/projects/images/admin.png";
-import Store from "../../../assets/projects/images/store.png";
-import ReactFiber from "../../../assets/projects/images/reactfiber.png";
+import MessengerImage from "../../../assets/projects/images/messenger.webp";
+import RedditImage from "../../../assets/projects/images/reddit.webp";
+import AirbnbImage from "../../../assets/projects/images/airbnb.webp";
+import ServerActions from "../../../assets/projects/images/serveractions.webp";
+import Admin from "../../../assets/projects/images/admin.webp";
+import Store from "../../../assets/projects/images/store.webp";
+import ReactFiber from "../../../assets/projects/images/reactfiber.webp";
 
 export interface IProject {
   title: string;

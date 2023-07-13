@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
-import personalIcon from "../../../assets/moebius-triangle.png";
-import carrerIcon from "../../../assets/triple-corn.png";
-import educationIcon from "../../../assets/upgrade.png";
+import personalIcon from "../../../assets/moebius-triangle.webp";
+import carrerIcon from "../../../assets/triple-corn.webp";
+import educationIcon from "../../../assets/upgrade.webp";
 import AboutMenuItem from "./AboutMenuItem";
 import subheadingsData from "./AboutMenuSubHeadingData";
 import "./aboutMenu.css";
