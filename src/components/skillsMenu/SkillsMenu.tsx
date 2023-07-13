@@ -45,7 +45,7 @@ export default function SkillsMenu() {
           <h2 className="skill-title">{item}</h2>
         </div>
       ))}
-      <img className="skill-icon" src={currentIcon} alt="current skill" />
+      <img loading="eager" className="skill-icon" src={currentIcon} alt="current skill" />
       <div className="skill-sub-container">
         {renderContent(skills[activeMenuItem])}
       </div>

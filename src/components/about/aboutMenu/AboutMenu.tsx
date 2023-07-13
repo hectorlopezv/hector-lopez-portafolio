@@ -46,7 +46,7 @@ export default function AboutMenu() {
 
       <div className="sub-container">
         <div className="icon-title-container">
-          <img src={activeMenuIcon} alt={activeMenuTitle} />
+          <img loading="eager" src={activeMenuIcon} alt={activeMenuTitle} />
           <h3>{activeMenuTitle}</h3>
         </div>
         {subheadings.map((item, index) => (

@@ -41,7 +41,7 @@ export default function Nav() {
     const linkClass = isCurrentPage ? "nav-link current" : "nav-link";
     return (
       <Link to={to} className={linkClass}>
-        <img src={imageSrc} alt={altText} />
+        <img loading="eager" src={imageSrc} alt={altText} />
         {isCurrentPage ? <h1 className="page-title">{pageTitle}</h1> : null}
       </Link>
     );

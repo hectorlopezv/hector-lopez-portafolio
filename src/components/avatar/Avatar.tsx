@@ -9,7 +9,7 @@ export default function Avatar({ page }: Props) {
   return (
     <>
       <span className={spanClass}></span>
-      <img src={avatarImage} alt="avatar image" className={avatarClass} />
+      <img loading="eager" src={avatarImage} alt="avatar image" className={avatarClass} />
     </>
   );
 }
