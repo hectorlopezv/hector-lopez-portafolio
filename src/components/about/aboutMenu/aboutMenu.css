@@ -95,7 +95,7 @@
 }
 
 .active-subheading .p-container.max-height {
-  max-height: 180px;
+  max-height: 120px;
 }
 .icon-title-container {
   display: flex;
@@ -139,6 +139,7 @@
 
   .active-subheading .p-container {
     font-size: 0.9rem;
+    max-height: 120px;
   }
   .icon-title-container,
   .icon {

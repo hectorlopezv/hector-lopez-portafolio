@@ -23,10 +23,8 @@ const projects: IProjects = {
     image: MessengerImage,
     description: (
       <>
-        <p>
-          Messenger clone build on Next.js 13, React, Typescript, Zustand,
-          Tailwind, Prisma, MongoDB, NextAuth, Pusher, cloudinary, and more.
-        </p>
+        Messenger clone build on Next.js 13, React, Typescript, Zustand,
+        Tailwind, Prisma, MongoDB, NextAuth, Pusher, cloudinary, and more.
       </>
     ),
     github:
@@ -38,11 +36,8 @@ const projects: IProjects = {
     image: RedditImage,
     description: (
       <>
-        <p>
-          Reddit clone build on Next.js 13, React, Typescript, Zustand,
-          Tailwind, Prisma, cloudinary, upstash redis, MySql, NextAuth, and
-          more,
-        </p>
+        Reddit clone build on Next.js 13, React, Typescript, Zustand, Tailwind,
+        Prisma, cloudinary, upstash redis, MySql, NextAuth, and more,
       </>
     ),
     github:
@@ -54,10 +49,8 @@ const projects: IProjects = {
     image: AirbnbImage,
     description: (
       <>
-        <p>
-          Airbnb clone build on Next.js 13, React, Typescript, Zustand,
-          Tailwind, Prisma, cloudinary, and more.
-        </p>
+        Airbnb clone build on Next.js 13, React, Typescript, Zustand, Tailwind,
+        Prisma, cloudinary, and more.
       </>
     ),
     github:
@@ -69,10 +62,8 @@ const projects: IProjects = {
     image: ServerActions,
     description: (
       <>
-        <p>
-          Ecommerce, Next.js 13, React, Typescript, DaisyUI, mongodb, nextAuth,
-          Prisma, pagination, server actions, searching/filtering, and more.
-        </p>
+        Ecommerce, Next.js 13, React, Typescript, DaisyUI, mongodb, nextAuth,
+        Prisma, pagination, server actions, searching/filtering, and more.
       </>
     ),
     github:
@@ -84,11 +75,9 @@ const projects: IProjects = {
     image: Admin,
     description: (
       <>
-        <p>
-          Admin Dashboard, Next.js 13, React, Typescript, Shadcn, Zustand,
-          Tailwind, Prisma, Mysql, Clerk, Pusher, cloudinary, Stripe, Recharts
-          and more.
-        </p>
+        Admin Dashboard, Next.js 13, React, Typescript, Shadcn, Zustand,
+        Tailwind, Prisma, Mysql, Clerk, Pusher, cloudinary, Stripe, Recharts and
+        more.
       </>
     ),
     github:
@@ -100,10 +89,8 @@ const projects: IProjects = {
     image: Store,
     description: (
       <>
-        <p>
-          Store Market, Next.js 13, React, Typescript, Zustand, Tailwind, and
-          more.
-        </p>
+        Store Market, Next.js 13, React, Typescript, Zustand, Tailwind, and
+        more.
       </>
     ),
     github:
@@ -115,10 +102,8 @@ const projects: IProjects = {
     image: ReactFiber,
     description: (
       <>
-        <p>
-          React Fiber, React-Three/Drei Hooks, Three.js, React, Typescript, and
-          more.
-        </p>
+        React Fiber, React-Three/Drei Hooks, Three.js, React, Typescript, and
+        more.
       </>
     ),
     github: "https://github.com/hectorlopezv/react-three-fiber-demos",

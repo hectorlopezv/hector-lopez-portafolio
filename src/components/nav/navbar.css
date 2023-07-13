@@ -73,8 +73,15 @@ a {
 }
 .flex {
   display: flex;
-  gap: 2px;
+  gap: 4px;
   padding: 4px;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-end;
+}
+
+@media (max-width: 700px) {
+  .flex {
+    flex-direction: column;
+    gap: 18px;
+  }
 }
