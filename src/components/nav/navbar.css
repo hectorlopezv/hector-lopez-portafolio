@@ -68,3 +68,13 @@ a {
     display: none;
   }
 }
+.text-white {
+  color: white !important;
+}
+.flex {
+  display: flex;
+  gap: 2px;
+  padding: 4px;
+  justify-content: flex-end;
+  align-items: center;
+}

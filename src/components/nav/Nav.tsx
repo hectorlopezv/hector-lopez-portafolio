@@ -3,6 +3,7 @@ import astrountalHelmet from "../../assets/astronaut-helmet.png";
 import deadeyer from "../../assets/dead-eye.png";
 import envelope from "../../assets/envelope.png";
 import stack from "../../assets/stack.png";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 import "./navbar.css";
 export default function Nav() {
   const location = useLocation();
@@ -47,31 +48,49 @@ export default function Nav() {
   };
 
   return (
-    <nav className={`nav ${navPositionClass}`}>
-      {renderNavLink({
-        to: "/",
-        imageSrc: astrountalHelmet,
-        altText: "astronaut helmet icon",
-        navClass: "nav-about",
-      })}
-      {renderNavLink({
-        to: "/skills",
-        imageSrc: deadeyer,
-        altText: "deadeyer icon",
-        navClass: "nav-skills",
-      })}
-      {renderNavLink({
-        to: "/projects",
-        imageSrc: stack,
-        altText: "stack icon",
-        navClass: "nav-projects",
-      })}
-      {renderNavLink({
-        to: "/contact",
-        imageSrc: envelope,
-        altText: "envelop icon",
-        navClass: "nav-contact",
-      })}
-    </nav>
+    <div>
+      <nav className={`nav ${navPositionClass}`}>
+        {renderNavLink({
+          to: "/",
+          imageSrc: astrountalHelmet,
+          altText: "astronaut helmet icon",
+          navClass: "nav-about",
+        })}
+        {renderNavLink({
+          to: "/skills",
+          imageSrc: deadeyer,
+          altText: "deadeyer icon",
+          navClass: "nav-skills",
+        })}
+        {renderNavLink({
+          to: "/projects",
+          imageSrc: stack,
+          altText: "stack icon",
+          navClass: "nav-projects",
+        })}
+        {renderNavLink({
+          to: "/contact",
+          imageSrc: envelope,
+          altText: "envelop icon",
+          navClass: "nav-contact",
+        })}
+      </nav>
+      <div className="flex ">
+        <a
+          href="https://www.linkedin.com/in/hectorviniciolopezmolinares-fullstackdeveloper"
+          target="_blank"
+          className="text-white"
+        >
+          <BsLinkedin size={26} />
+        </a>
+        <a
+          href="https://github.com/hectorlopezv"
+          target="_blank"
+          className="text-white"
+        >
+          <BsGithub size={26} />
+        </a>
+      </div>
+    </div>
   );
 }
