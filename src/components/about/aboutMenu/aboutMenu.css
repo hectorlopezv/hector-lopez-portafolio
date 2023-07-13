@@ -148,7 +148,7 @@
 }
 
 .skill-menu {
-  width: 44rem;
+  width: 38rem;
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -298,7 +298,7 @@
   .skill-sub-container-2,
   .skill-sub-container-3 {
     gap: 0.5rem;
-    font-size: 0.83rem;
+    font-size: 0.76rem;
   }
   .skill-sub-container {
     gap: 0.4rem;

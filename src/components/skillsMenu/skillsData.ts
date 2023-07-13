@@ -33,11 +33,11 @@ const skills: ISkillsData = {
       level: 6,
     },
     {
-      title: "Material UI / Shadcn / Ant Design",
+      title: "MUI / Shadcn / Ant Design",
       level: 4,
     },
     {
-      title: "Auth0 / Passport / JWT / OAuth",
+      title: "Auth0 / Passport / JWT",
       level: 3,
     },
 
@@ -47,7 +47,7 @@ const skills: ISkillsData = {
     },
   ],
   2: [
-    { title: "Authentication / Authorization", level: 3 },
+    { title: "Auth / Authorization", level: 3 },
     {
       title: "Python / Go / Java",
       level: 2,
@@ -69,7 +69,7 @@ const skills: ISkillsData = {
       level: 4,
     },
     {
-      title: "Mongodb / Mysql / Postgresql",
+      title: "Mongodb / Postgresql",
       level: 3,
     },
     {
