@@ -42,7 +42,7 @@ const skills: ISkillsData = {
     },
 
     {
-      title: "Jest / React Testing Library / Cypress",
+      title: "Jest / RTL / Cypress",
       level: 4,
     },
   ],

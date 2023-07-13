@@ -291,3 +291,15 @@
     width: 12em;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .skill-sub-container-1,
+  .skill-sub-container-2,
+  .skill-sub-container-3 {
+    gap: 0.5rem;
+    font-size: 0.83rem;
+  }
+  .skill-sub-container {
+    gap: 0.4rem;
+  }
+}
