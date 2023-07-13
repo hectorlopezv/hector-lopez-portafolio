@@ -9,7 +9,14 @@ export default function ProjectsMenu() {
   const handleProjectClick = (menuItem: number) => {
     setActiveMenu(menuItem);
   };
-  const projectItems = ["PROJECT ONE", "PROJECT TWO", "PROJECT THREE"];
+  const projectItems = [
+    "Messenger Clone",
+    "Reddit Clone",
+    "Airbnb",
+    "Ecomerce",
+    "Admin Dashboard",
+    "Store Market",
+  ];
   return (
     <div className="project-menu">
       <div className="project-items-container">
@@ -26,9 +33,7 @@ export default function ProjectsMenu() {
         ))}
       </div>
       <div className="project-sub-container">
-        <ProjectsMap
-          projects={[projects[activeProject]]}
-        />
+        <ProjectsMap projects={[projects[activeProject]]} />
       </div>
     </div>
   );

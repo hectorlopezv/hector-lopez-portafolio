@@ -11,13 +11,13 @@
   flex-direction: column;
   display: flex;
   position: relative;
-  width: 40%;
+  width: 42%;
   margin-top: 12rem;
   align-items: flex-end;
 }
 
 .project-item {
-  height: 3.75rem;
+  height: 2.3rem;
   width: 90%;
   display: flex;
   position: relative;
@@ -61,7 +61,7 @@
 .project-sub-container img {
   width: 100%;
   object-fit: cover;
-  border-radius: 0.5rem 3rem 0.5rem 0.5rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
   opacity: 0.9;
 }
 .project-sub-container p {
