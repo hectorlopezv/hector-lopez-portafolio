@@ -16,6 +16,7 @@ export default function ProjectsMenu() {
     "Ecomerce",
     "Admin Dashboard",
     "Store Market",
+    "React Fiber"
   ];
   return (
     <div className="project-menu">
