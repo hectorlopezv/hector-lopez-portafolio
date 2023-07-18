@@ -21,7 +21,7 @@ export default function ProjectsMenu() {
   ];
   return (
     <div className="project-menu">
-      <div className="project-items-container">
+      <div className="project-items-container" id="scroll">
         {projectItems.map((item, index) => (
           <div
             key={index}

@@ -17,7 +17,7 @@ export default function AboutMenuSubHeading({
   menuItem: string | number;
 }) {
   const subContainerClass = `sub-container-${menuItem}`;
-  console.log({ activeMenuTitle });
+
   return (
     <div
       className={classNames(subContainerClass, { "active-subheading": active })}
