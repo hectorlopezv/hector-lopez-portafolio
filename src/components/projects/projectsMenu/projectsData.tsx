@@ -109,6 +109,18 @@ const projects: IProjects = {
     github: "https://github.com/hectorlopezv/react-three-fiber-demos",
     demo: "https://react-three-fiber-demos.vercel.app/",
   },
+  8: {
+    title: "Spotify Clone Next.js",
+    image: ReactFiber,
+    description: (
+      <>
+        Spotify Clone Next.js 13, React, Typescript, Zustand, Tailwind, Supabase
+      </>
+    ),
+    github:
+      "https://github.com/hectorlopezv/fullstack-spotify-stripe-postgresql-tailwind-supabase",
+    demo: "https://fullstack-spotify-stripe-postgresql-tailwind-supabase.vercel.app/",
+  },
 };
 
 export default projects;
