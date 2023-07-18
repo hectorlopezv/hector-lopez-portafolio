@@ -6,6 +6,7 @@ import ServerActions from "../../../assets/projects/images/serveractions.webp";
 import Admin from "../../../assets/projects/images/admin.webp";
 import Store from "../../../assets/projects/images/store.webp";
 import ReactFiber from "../../../assets/projects/images/reactfiber.webp";
+import Spotify from "../../../assets/projects/images/spotify.webp";
 
 export interface IProject {
   title: string;
@@ -111,7 +112,7 @@ const projects: IProjects = {
   },
   8: {
     title: "Spotify Clone Next.js",
-    image: ReactFiber,
+    image: Spotify,
     description: (
       <>
         Spotify Clone Next.js 13, React, Typescript, Zustand, Tailwind, Supabase
