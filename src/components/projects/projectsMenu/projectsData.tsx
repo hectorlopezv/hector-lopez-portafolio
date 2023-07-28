@@ -7,7 +7,7 @@ import Admin from "../../../assets/projects/images/admin.webp";
 import Store from "../../../assets/projects/images/store.webp";
 import ReactFiber from "../../../assets/projects/images/reactfiber.webp";
 import Spotify from "../../../assets/projects/images/spotify.webp";
-
+import AWS from "../../../assets/projects/images/gambit.webp";
 export interface IProject {
   title: string;
   image: string;
@@ -124,8 +124,8 @@ const projects: IProjects = {
   },
   9: {
     title:
-      "Gambit AWS RDS, IAM, COGNITO, LAMBDA, S3, CLOUDWATCH, API GATEWAY, SECRET MANAGER",
-    image: Spotify,
+      "AWS RDS, IAM, COGNITO, LAMBDA, S3, CLOUDWATCH, API GATEWAY, SECRET MANAGER",
+    image: AWS,
     description: (
       <>
         RDS, IAM, COGNITO, LAMBDA, S3, CLOUDWATCH, API GATEWAY, SECRET MANAGER,
