@@ -122,6 +122,19 @@ const projects: IProjects = {
       "https://github.com/hectorlopezv/fullstack-spotify-stripe-postgresql-tailwind-supabase",
     demo: "https://fullstack-spotify-stripe-postgresql-tailwind-supabase.vercel.app/",
   },
+  9: {
+    title:
+      "Gambit AWS RDS, IAM, COGNITO, LAMBDA, S3, CLOUDWATCH, API GATEWAY, SECRET MANAGER",
+    image: Spotify,
+    description: (
+      <>
+        RDS, IAM, COGNITO, LAMBDA, S3, CLOUDWATCH, API GATEWAY, SECRET MANAGER,
+        Github, MySql
+      </>
+    ),
+    github: "https://github.com/hectorlopezv/lambda-repository-aws-go",
+    demo: "",
+  },
 };
 
 export default projects;

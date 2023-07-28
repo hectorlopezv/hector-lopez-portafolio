@@ -14,12 +14,10 @@ const skills: ISkillsData = {
       title: "Css / Sass / Html",
       level: 5,
     },
-
     {
       title: "JavaScript / TypeScript",
       level: 5,
     },
-
     {
       title: "Redux / Zustand",
       level: 5,
@@ -37,17 +35,16 @@ const skills: ISkillsData = {
       level: 4,
     },
     {
-      title: "Auth0 / Passport / JWT",
-      level: 3,
-    },
-
-    {
       title: "Jest / RTL / Cypress",
       level: 4,
     },
   ],
   2: [
     { title: "Auth / Authorization", level: 3 },
+    {
+      title: "Auth0 / Passport / JWT",
+      level: 3,
+    },
     {
       title: "Python / Go / Java",
       level: 2,
@@ -80,10 +77,6 @@ const skills: ISkillsData = {
   3: [
     {
       title: "AWS / GCP / Azure",
-      level: 2,
-    },
-    {
-      title: "Linux / Bash",
       level: 2,
     },
     {
