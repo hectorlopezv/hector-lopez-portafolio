@@ -18,6 +18,7 @@ export default function ProjectsMenu() {
     "Store Market",
     "React Fiber",
     "Spotify Clone",
+    "AWS Serverless"
   ];
   return (
     <div className="project-menu">
